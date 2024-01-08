@@ -5,8 +5,14 @@
     Description: Dilate OpenStreetMap
     Author: William Donayre Jr - Dilate Digital LLC. <william@dilate.com.au>
     Text Domain: wp-openstreetmap
-    Version: 0.0.2
+    Version: 0.0.3
   */
+
+    // If this file is called directly, abort.
+    if (!defined('WPINC')) {
+        die;
+    }
+        
 
     require 'wp-openstreetmap.php';
     use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
@@ -24,7 +30,3 @@
     // $myUpdateChecker->setAuthentication('your-token-here');
 
 
-  // If this file is called directly, abort.
-  if (!defined('WPINC')) {
-    die;
-  }
