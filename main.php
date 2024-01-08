@@ -5,7 +5,7 @@
     Description: Dilate OpenStreetMap
     Author: William Donayre Jr - Dilate Digital LLC. <william@dilate.com.au>
     Text Domain: wp-openstreetmap
-    Version: 0.0.1
+    Version: 0.0.2
   */
 
     require 'wp-openstreetmap.php';
@@ -18,7 +18,7 @@
     );
 
     //Set the branch that contains the stable release.
-    $myUpdateChecker->setBranch('master');
+    $myUpdateChecker->setBranch('main');
 
     //Optional: If you're using a private repository, specify the access token like this:
     // $myUpdateChecker->setAuthentication('your-token-here');
