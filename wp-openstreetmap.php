@@ -5,7 +5,7 @@
     Description: Dilate OpenStreetMap
     Author: William Donayre Jr - Dilate Digital LLC. <william@dilate.com.au>
     Text Domain: wp-openstreetmap
-    Version: 0.0.0
+    Version: 0.0.1
   */
 
     // If this file is called directly, abort.
