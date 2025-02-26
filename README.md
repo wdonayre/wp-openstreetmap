@@ -1,5 +1,5 @@
 === WP OpenStreetmap ===
-Contributors: William Donayre Jr <william@dilate.com.au>
+Contributors: William Donayre Jr <wdonayredroid@gmail.com>
 Tags: maps, openstreetmap
 Requires at least: 6.0
 Tested up to: 6.4
